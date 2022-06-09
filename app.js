@@ -253,7 +253,7 @@ function setTokenSentToServer(currentToken) {
 
 function updateUIForPushEnabled(currentToken) {
     console.log(currentToken);
-    token.text(currentToken);
+    // token.text(currentToken);
     bt_register.hide();
     bt_delete.show();
     form.show();
