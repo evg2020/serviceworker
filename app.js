@@ -92,8 +92,8 @@ if (
         info.show();
         info_message
             .text('')
-            .append('<strong>'+`Title`+payload.data.title +'</strong>' + '<br>')
-            .append('<br>' + '<br>')
+            .append('<strong>'+`Title: `+payload.data.title +'</strong>' + '<br>')
+            // .append('<br>')
             .append('<p>'+ payload.data.body+'</p>')
         ;
 
