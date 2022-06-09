@@ -92,8 +92,9 @@ if (
         info.show();
         info_message
             .text('')
-            .append('<strong>'+payload.data.title+'</strong>')
-            .append('<em>'+payload.data.body+'</em>')
+            .append('<strong>'+'Title'+payload.data.title+'</strong>')
+            .append('<br><br>')
+            .append('<p>'+payload.data.body+'</p>')
         ;
 
         // register fake ServiceWorker for show notification on mobile devices
